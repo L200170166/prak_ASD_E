@@ -12,4 +12,4 @@ class Manusia(object):
         print("I'm just got training", k)
         self.keadaan='Hungry'
     def kali(self,n):
-return n*2
+        return n*2

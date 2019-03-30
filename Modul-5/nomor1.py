@@ -11,9 +11,9 @@ h=Mahasiswa('Helda',312,'Suronatan',230000)
 i=Mahasiswa('Freya',180,'Sukoharjo',123000)
 j=Mahasiswa('Unto',314,'Solo',120000)
 
-mahasiswa = [a,b,c,d,e,f,g,h,i,j]
+mhs = [a,b,c,d,e,f,g,h,i,j]
 
-def urutkan(A):
+def Sort(A):
     baru = {}
     for i in range(len(A)):
         baru[A[i].nama] = A[i].NIM
@@ -21,4 +21,4 @@ def urutkan(A):
     for elem in listofTuples :
         print(elem[0] , ":" , elem[1] )
 
-urutkan(mhss)
+Sort(mhs)
